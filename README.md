@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Solution Repo](https://github.com/syntherat/frontendmentor-results-summary-component-challenge-3)
+- Live Site URL: [Solution Live Site](https://syntherat.github.io/frontendmentor-results-summary-component-challenge-3/)
 
 ## My process
 
@@ -51,5 +51,5 @@ Users should be able to:
 ## Author
 
 - Website - [Sounak Pal](https://sounak-socials.vercel.app/)
-- Frontend Mentor - [@ysyntherat](https://www.frontendmentor.io/profile/syntherat)
+- Frontend Mentor - [@syntherat](https://www.frontendmentor.io/profile/syntherat)
 - Twitter - [@sounak_syn](https://www.twitter.com/sounak_syn)
