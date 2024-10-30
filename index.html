@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div id="result-card" class="card-item">
+        <h1 class="your-result">Your Result</h1>
+        <div class="circle">
+          <p class="score">76</p>
+          <p class="total-score">of 100</p>
+        </div>
+        <div class="grade-title"><p>Great</p></div>
+        <div class="grade-desc"><p>You scored higher than 65% of the people who have taken these tests.</p></div>
+      </div>
+      <div id="summary-card" class="card-item">
+        <div class="main-content">
+          <h1 class="summary">Summary</h1>
+          <div class="reaction field">
+            <img src="./assets/images/icon-reaction.png">
+            <p class="reaction-txt">Reaction</p>
+            <p class="reaction-score">80</p>
+            <p class="reaction-totscore">/ 100</p>
+          </div>
+          <div class="memory field">
+            <img src="./assets/images/icon-memory.png">
+            <p class="memory-txt">Memory</p>
+            <p class="memory-score">92</p>
+            <p class="memory-totscore">/ 100</p>
+          </div>
+          <div class="verbal field">
+            <img src="./assets/images/icon-verbal.png">
+            <p class="verbal-txt">Verbal</p>
+            <p class="verbal-score">61</p>
+            <p class="verbal-totscore">/ 100</p>
+          </div>
+          <div class="visual field">
+            <img src="./assets/images/icon-visual.png">
+            <p class="visual-txt">Visual</p>
+            <p class="visual-score">72</p>
+            <p class="visual-totscore">/ 100</p>
+          </div>
+          
+          <div type="button" class="continue"><a href="https://vercel.com/syntherats">
+            Continue</a></div>
+          
+        </div> 
+      </div>
+    </div>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://sounak-socials.vercel.app/">Sounak Pal</a>.
+  </footer>
+</body>
+</html>
